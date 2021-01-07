@@ -11,6 +11,11 @@ public class CameraFollow : MonoBehaviour
 
 	void Start()
 	{
+        transform.position = target.position;
+        transform.position = new Vector3(target.position.x, target.position.y +6, target.position.z - 4);
+        
+        
+
 		offset = transform.position - target.position;
 	}
 
