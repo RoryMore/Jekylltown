@@ -14,8 +14,6 @@
 		Stencil{
 			Ref 1
 			Comp notequal
-			Pass keep
-
 		}
 
 		CGPROGRAM

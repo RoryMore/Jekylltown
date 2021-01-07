@@ -7,6 +7,7 @@
 
 		 ColorMask 0
 
+		
 		ZWrite off
 		Stencil{
 			Ref 1
@@ -19,7 +20,6 @@
 			CGPROGRAM
 			#pragma vertex vert
 			#pragma fragment frag
-			// make fog work
 
 
 			#include "UnityCG.cginc"
